@@ -1,0 +1,35 @@
+$primary-brand-colour: #d3d3d3;
+$secondary-brand-color: #fff;
+$white: #fff;
+$black: #000;
+$offblack: #0e0c0c;
+
+$primary-font: 'DM Sans', sans-serif;
+$secondary-font: 'DM Serif Text', serif;
+$heading-font: 'Formula', sans-serif;
+$body-font: 'Untitled', serif;
+
+@mixin media-xl{
+    @media screen and (min-width: 1024px){
+        @content;
+    }
+}
+
+@mixin media-lg{
+    @media screen and (min-width: 768px){
+        @content;
+    }
+}
+
+@mixin media-sm{
+    @media screen and (max-width: 600px){
+        @content;
+    }
+}
+
+$aspect: "(min-aspect-ratio: 16/9)";
+@mixin media-ar {
+    @media screen and #{$aspect} {
+        @content;
+    }
+}
