@@ -30,7 +30,7 @@ h1 {
 }
 
 h4 {
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 a {
     color: $primary-brand-colour;
@@ -115,9 +115,10 @@ a {
     padding-right: 3em;
 
     .entry-header {
-        margin-left: -3em;
-        margin-right: -3em;
-        width: calc(100% + 6em);
+        // margin-left: -3em;
+        // margin-right: -3em;
+        // width: calc(100% + 6em);
+        width: 100%;
         position: relative;
         
 
@@ -284,8 +285,8 @@ a {
 .video_grid, .featured_grid {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -3em;
-    margin-right: -3em;
+    // margin-left: -3em;
+    // margin-right: -3em;
 
     .single_video {
         width: calc(100% / 3);
@@ -526,8 +527,8 @@ a {
         background-repeat: no-repeat;
         background-position: bottom right;
         padding-top: 4em;
-        margin-right: -3em;
-        padding-right: 3em;
+        // margin-right: -3em;
+        // padding-right: 3em;
         min-height: 440px;
         display: flex;
         justify-content: space-between;
@@ -695,10 +696,11 @@ a {
 .contact-map {
     filter: grayscale(1);
     @include media-sm {
-        margin-left: -3em;
-        margin-right: -3em;
+        // margin-left: -3em;
+        // margin-right: -3em;
         max-width: unset;
-        width: calc(100% + 6em);
+        // width: calc(100% + 6em);
+        width: 100%;
     }
 }
 
@@ -754,3 +756,5 @@ a {
 
     }
 }
+
+@import 'redesign';

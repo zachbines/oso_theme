@@ -9,7 +9,7 @@
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.1.4' );
+	define( '_S_VERSION', '1.1.6' );
 }
 
 if ( ! function_exists( 'oso_theme_setup' ) ) :

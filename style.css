@@ -649,7 +649,7 @@ textarea {
 --------------------------------------------- */
 .main-navigation {
 	display: block;
-	width: 100%;
+	/* width: 100%; */
 }
 
 .main-navigation ul {
